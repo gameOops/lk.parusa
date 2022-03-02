@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Мои данные</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220224125107">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo _icon-logo"></a>
+				<div class="header__content">
+					<div class="header__actions actions-header">
+						<button type="button" class="actions-header__user">
+							<div class="actions-header__icon _icon-user">
+								<!-- <picture><source srcset="img/home/user.webp" type="image/webp"><img src="img/home/user.jpg?_v=1645699867180" alt=""></picture> -->
+							</div>
+							<div class="actions-header__name">Юлия</div>
+						</button>
+						<button type="button" class="actions-header__message _icon-message">
+							<span>3</span>
+						</button>
+						<button type="button" class="icon-menu">
+							<span class="icon-menu__item icon-menu__item-1"></span>
+							<span class="icon-menu__item icon-menu__item-2"></span>
+							<span class="icon-menu__item icon-menu__item-3"></span>
+							<span class="icon-menu__item icon-menu__item-4"></span>
+						</button>
+						<div class="actions-header__menu">
+							<a href="#" class="actions-header__link">
+								<div class="actions-header__img _icon-person"></div>
+								<span>Личный кабинет</span>
+							</a>
+							<a href="#" class="actions-header__link">
+								<div class="actions-header__img _icon-out"></div>
+								<span>Выйти</span>
+							</a>
+						</div>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Каталог приключений</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+								<li class="menu__item"><a href="" class="menu__link">О нас</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Морской журнал</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Партнёры</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Архив путешествий</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Календарь</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Запись из архива</a></li>
+							</ul>
+							<div class="menu-active">
+								<div class="menu-active__heading">
+									<div class="menu-active__label">Меню</div>
+									<button class="menu-active__close">
+										<img src="img/icons/close.svg?_v=1645699867180" alt="">
+									</button>
+								</div>
+								<div class="menu-active__items">
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-person"></div>
+										<div class="menu-active__lead">Мои данные</div>
+									</a>
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-travel"></div>
+										<div class="menu-active__lead">Мои путешествия <span>(2)</span></div>
+									</a>
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-note"></div>
+										<div class="menu-active__lead">Мои заметки</div>
+									</a>
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-peoples"></div>
+										<div class="menu-active__lead">Мои попутчики</div>
+									</a>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="breadcrumbs">
+				<div class="breadcrumbs__container">
+					<div class="breadcrumbs__list">
+						<li><a href="#" class="breadcrumbs__link">Личный кабинет</a></li>
+						<li><a href="#" class="breadcrumbs__link _active">Мои достижения</a></li>
+					</div>
+				</div>
+			</div>
+			<section class="personalarea">
+				<div class="personalarea__container">
+					<h1 class="personalarea__title title">Личный кабинет</h1>
+					<div class="personalarea__body">
+						<div class="personalarea__sidebar sidebar-personalarea">
+							<button type="button" class="sidebar-personalarea__menu">Меню</button>
+							<a href="#" class="sidebar-personalarea__item _active">
+								<div class="sidebar-personalarea__icon _icon-person"></div>
+								<div class="sidebar-personalarea__label">Мои данные</div>
+							</a>
+							<a href="#" class="sidebar-personalarea__item">
+								<div class="sidebar-personalarea__icon _icon-travel"></div>
+								<div class="sidebar-personalarea__label">Мои путешествия <span class="sidebar-personalarea__quantity">(2)</span></div>
+							</a>
+							<a href="#" class="sidebar-personalarea__item">
+								<div class="sidebar-personalarea__icon _icon-note"></div>
+								<div class="sidebar-personalarea__label">Мои данные</div>
+							</a>
+							<a href="#" class="sidebar-personalarea__item">
+								<div class="sidebar-personalarea__icon _icon-peoples"></div>
+								<div class="sidebar-personalarea__label">Мои попутчики</div>
+							</a>
+						</div>
+						<form action="#" class="personalarea__form">
+							<div class="personalarea__info">
+								<div class="personalarea__data data-personalarea">
+									<div class="data-personalarea__row">
+										<div class="data-personalarea__description">
+											<div class="data-personalarea__img">
+												<div id="descPreview" class="data-personalarea__bg _icon-person">
+
+												</div>
+											</div>
+											<div class="data-personalarea__inner">
+												<div class="data-personalarea__file">
+													<input id="descImage" accept=".jpg, .png" type="file" name="image" class="input-file">
+													<button type="button" class="data-personalarea__select btn-select-orange btn btn-orange _icon-send">Загрузить
+														фото</button>
+												</div>
+												<div class="data-personalarea__status">
+													<div class="data-personalarea__caption">Ваш статус:</div>
+													<div class="data-personalarea__line">
+														<div class="data-personalarea__icon _icon-status"></div>
+														<div class="data-personalarea__lead">Матрос</div>
+														<button data-tippy-content type="button" class="data-personalarea__more _icon-more"></button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="data-personalarea__info data-personalarea__info-p">
+											<div class="data-personalarea__input">
+												<div class="data-personalarea__label">Фамилия</div>
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Шабашова" class="input">
+											</div>
+											<div class="data-personalarea__input">
+												<div class="data-personalarea__label">Имя</div>
+												<div class="data-personalarea__edit">
+													<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Юлия" class="input-edit">
+													<div class="data-personalarea__pen _icon-edit"></div>
+												</div>
+											</div>
+											<div class="data-personalarea__input">
+												<div class="data-personalarea__label">Телефон</div>
+												<input name="tel" data-mask="+7,+7(___)___-__-__" autocomplete="off" type="tel" name="form[]" data-error="Ошибка" class="input input-tel">
+											</div>
+											<div class="data-personalarea__input">
+												<div class="data-personalarea__label">E-mail</div>
+												<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="yuliashabashova@gmail.com" class="input">
+											</div>
+											<div class="data-personalarea__block">
+												<select class="data-personalarea__place">
+													<option value="1" selected>Страна</option>
+													<option value="2">Страна</option>
+												</select>
+											</div>
+											<div class="data-personalarea__block">
+												<select class="data-personalarea__place">
+													<option value="1" selected>Город</option>
+													<option value="2">Страна</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class=" data-personalarea__textarea">
+										<div class="data-personalarea__label">О себе</div>
+										<textarea name="about-data" placeholder="О себе"></textarea>
+									</div>
+								</div>
+								<div class="personalarea__passports passports-personalarea">
+									<div class="passports-personalarea__block">
+										<div class="passports-personalarea__caption">Паспорт гражданина</div>
+										<div class="passports-personalarea__subcaption">Основной разворот паспорта + прописка.
+										</div>
+										<div class="passports-personalarea__line">
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Серия:</div>
+												<div class="passports-personalarea__item">132 564 789</div>
+											</div>
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Номер:</div>
+												<div class="passports-personalarea__item">011233</div>
+											</div>
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Выдан:</div>
+												<div class="passports-personalarea__item">г.Москва</div>
+											</div>
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Дата выдачи:</div>
+												<div class="passports-personalarea__item">19.01.1994</div>
+											</div>
+										</div>
+										<button class="passports-personalarea__btn">Принято</button>
+									</div>
+									<div class="passports-personalarea__block">
+										<div class="passports-personalarea__caption">Загранпаспорт</div>
+										<div class="passports-personalarea__subcaption">Основной разворот</div>
+										<div class="passports-personalarea__line">
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Серия:</div>
+												<div class="passports-personalarea__item">--- --- ---</div>
+											</div>
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Номер:</div>
+												<div class="passports-personalarea__item">--- ---</div>
+											</div>
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Выдан:</div>
+												<div class="passports-personalarea__item">--- ---</div>
+											</div>
+											<div class="passports-personalarea__column">
+												<div class="passports-personalarea__label">Дата выдачи:</div>
+												<div class="passports-personalarea__item">---- ----</div>
+											</div>
+										</div>
+										<button type="button" class="passports-personalarea__loading btn-orange _icon-send">
+											<span class="_icon-file">Загрузить сканы</span>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="personalarea__message">
+								<div class="personalarea__options options">
+									<div class="options__item">
+										<input id="formAll" type="radio" checked name="all" class="options__input">
+										<label for="formAll" name="all" class="options__label"><span>Все заметки</span></label>
+									</div>
+									<div class="options__item">
+										<input id="formAdministration" type="radio" name="all" class="options__input">
+										<label for="formAdministration" class="options__label"><span>От администрации</span></label>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__body">
+				<div class="footer__container">
+					<div class="footer__main">
+						<a href="#" class="footer__logo _icon-logo"></a>
+						<div data-da=".footer__container,767.98,3" class="footer__apps">
+							<a href="#" class="footer__app">
+								<picture><source srcset="img/footer/google.webp" type="image/webp"><img src="img/footer/google.png?_v=1645699867180" alt="Google pay"></picture>
+							</a>
+							<a href="#" class="footer__app">
+								<picture><source srcset="img/footer/appstore.webp" type="image/webp"><img src="img/footer/appstore.png?_v=1645699867180" alt="App store"></picture>
+							</a>
+						</div>
+					</div>
+					<div data-da=".footer__container,767.98,3" class="footer__menu menu-footer">
+						<div class="menu-footer__column">
+							<ul class="menu-footer__list">
+								<li><a href="#" class="menu-footer__item">Каталог приключений</a></li>
+								<li><a href="#" class="menu-footer__item">Контакты</a></li>
+								<li><a href="#" class="menu-footer__item">О нас</a></li>
+							</ul>
+						</div>
+						<div class="menu-footer__column">
+							<ul class="menu-footer__list">
+								<li><a href="#" class="menu-footer__item">Морской журнал</a></li>
+								<li><a href="#" class="menu-footer__item">Партнёры</a></li>
+								<li><a href="#" class="menu-footer__item">Архив путешествий</a></li>
+							</ul>
+						</div>
+						<div class="menu-footer__column">
+							<ul class="menu-footer__list">
+								<li><a href="#" class="menu-footer__item">Календарь</a></li>
+								<li><a href="#" class="menu-footer__item">Запись из архива</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__social">
+						<a href="#" class="footer__link">
+							<img src="img/footer/social/facebook.svg?_v=1645699867180" alt="Facebook">
+						</a>
+						<a href="#" class="footer__link">
+							<img src="img/footer/social/vk.svg?_v=1645699867180" alt="Vk">
+						</a>
+						<a href="#" class="footer__link">
+							<img src="img/footer/social/instagram.svg?_v=1645699867180" alt="Instagram">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<p>Copywriting © 2021</p>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220224125107"></script>
+</body>
+
+</html>
